@@ -13,6 +13,7 @@
 		C183B1BF268789280091EEEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C183B1BE268789280091EEEB /* Preview Assets.xcassets */; };
 		C183B1CA268789280091EEEB /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1C9268789280091EEEB /* WeatherAppTests.swift */; };
 		C183B1D5268789280091EEEB /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1D4268789280091EEEB /* WeatherAppUITests.swift */; };
+		C183B1E826878B620091EEEB /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1E726878B620091EEEB /* BackSplash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C183B1D0268789280091EEEB /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C183B1D4268789280091EEEB /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		C183B1D6268789280091EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C183B1E726878B620091EEEB /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,11 @@
 		C183B1B6268789260091EEEB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				C183B1E626878B080091EEEB /* View Model */,
+				C183B1E526878AFB0091EEEB /* Services */,
+				C183B1E326878AD00091EEEB /* Data */,
+				C183B1E426878AE70091EEEB /* Views */,
+				C183B1E226878ABE0091EEEB /* Helpers */,
 				C183B1B7268789260091EEEB /* WeatherAppApp.swift */,
 				C183B1B9268789260091EEEB /* ContentView.swift */,
 				C183B1BB268789280091EEEB /* Assets.xcassets */,
@@ -128,6 +135,42 @@
 				C183B1D6268789280091EEEB /* Info.plist */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		C183B1E226878ABE0091EEEB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C183B1E326878AD00091EEEB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C183B1E426878AE70091EEEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C183B1E726878B620091EEEB /* BackSplash.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C183B1E526878AFB0091EEEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C183B1E626878B080091EEEB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C183B1E826878B620091EEEB /* BackSplash.swift in Sources */,
 				C183B1BA268789260091EEEB /* ContentView.swift in Sources */,
 				C183B1B8268789260091EEEB /* WeatherAppApp.swift in Sources */,
 			);
