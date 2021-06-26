@@ -15,6 +15,8 @@
 		C183B1D5268789280091EEEB /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1D4268789280091EEEB /* WeatherAppUITests.swift */; };
 		C183B1E826878B620091EEEB /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1E726878B620091EEEB /* BackSplash.swift */; };
 		C183B1EA268791BC0091EEEB /* MainForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1E9268791BC0091EEEB /* MainForecast.swift */; };
+		C183B1EE268797600091EEEB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1ED268797600091EEEB /* Service.swift */; };
+		C183B1F026879E740091EEEB /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1EF26879E740091EEEB /* ForecastViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C183B1D6268789280091EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C183B1E726878B620091EEEB /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 		C183B1E9268791BC0091EEEB /* MainForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecast.swift; sourceTree = "<group>"; };
+		C183B1ED268797600091EEEB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C183B1EF26879E740091EEEB /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 		C183B1E526878AFB0091EEEB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C183B1ED268797600091EEEB /* Service.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 		C183B1E626878B080091EEEB /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				C183B1EF26879E740091EEEB /* ForecastViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 			files = (
 				C183B1E826878B620091EEEB /* BackSplash.swift in Sources */,
 				C183B1EA268791BC0091EEEB /* MainForecast.swift in Sources */,
+				C183B1EE268797600091EEEB /* Service.swift in Sources */,
+				C183B1F026879E740091EEEB /* ForecastViewModel.swift in Sources */,
 				C183B1BA268789260091EEEB /* ContentView.swift in Sources */,
 				C183B1B8268789260091EEEB /* WeatherAppApp.swift in Sources */,
 			);
