@@ -14,6 +14,7 @@
 		C183B1CA268789280091EEEB /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1C9268789280091EEEB /* WeatherAppTests.swift */; };
 		C183B1D5268789280091EEEB /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1D4268789280091EEEB /* WeatherAppUITests.swift */; };
 		C183B1E826878B620091EEEB /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1E726878B620091EEEB /* BackSplash.swift */; };
+		C183B1EA268791BC0091EEEB /* MainForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B1E9268791BC0091EEEB /* MainForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C183B1D4268789280091EEEB /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		C183B1D6268789280091EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C183B1E726878B620091EEEB /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
+		C183B1E9268791BC0091EEEB /* MainForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		C183B1E326878AD00091EEEB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C183B1E9268791BC0091EEEB /* MainForecast.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C183B1E826878B620091EEEB /* BackSplash.swift in Sources */,
+				C183B1EA268791BC0091EEEB /* MainForecast.swift in Sources */,
 				C183B1BA268789260091EEEB /* ContentView.swift in Sources */,
 				C183B1B8268789260091EEEB /* WeatherAppApp.swift in Sources */,
 			);
